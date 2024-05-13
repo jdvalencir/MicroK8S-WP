@@ -36,7 +36,8 @@ disponibilidad de esta aplicación.
 ## 2. información general de diseño de alto nivel, arquitectura, patrones, mejores prácticas utilizadas.
 Se utilizó la arquitectura presentada a continuación:
 
-![img](/imgs/overview.png)
+![Imagen de WhatsApp 2024-05-13 a las 12 45 13_b8148aa2](https://github.com/jdvalencir/MicroK8S-WP/assets/88250984/602b58d0-c6ab-408f-9f91-d104a126c05e)
+
 
 Como podemos ver en el diagrama se puede acceder a la página web por medio del ingress, aquí se configuro el `https` obteniendo el certificado SSL. Este Ingress nos redirige al servicio de wordpress. Estos pods apuntan a un servicio de la base de datos para hacer el CRUD necesario. También se tiene el NFS para guardar los datos tanto del wordpress como de la base de datos.
 
