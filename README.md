@@ -373,13 +373,13 @@ spec:
       - image: wordpress
         name: wordpress
         env:
-        - name: WORDPRESS_DATABASE_HOST
+        - name: WORDPRESS_DB_HOST
           value: <db_host>
-        - name: WORDPRESS_DATABASE_PASSWORD
+        - name: WORDPRESS_DB_PASSWORD
           value: <db_password>
-        - name: WORDPRESS_DATABASE_USER
+        - name: WORDPRESS_DB_USER
           value: <db_user>
-        - name: WORDPRESS_DATABASE_NAME
+        - name: WORDPRESS_DB_NAME
           value: <db_name>
         - name: WORDPRESS_DEBUG
           value: "1"
